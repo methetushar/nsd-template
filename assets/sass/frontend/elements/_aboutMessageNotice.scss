@@ -1,0 +1,82 @@
+// About Message Notice
+
+.about {
+    .card {
+        .card-body {
+            min-height: 180px;
+            p {
+                font-size: 14px;
+                text-align: justify;
+            }
+        }
+        .card-footer {
+            .btn {
+                background: #0A165E;
+                padding: 0.65rem 2.2rem;
+            }
+        }
+    }
+}
+
+.message {
+    .card {
+        .card-header {
+            img {
+                width: 150px;
+                height: 150px;
+                object-fit: contain;
+                border-radius: 50%;
+                background: #F6F6F6
+            }
+        }
+        .card-body {
+            min-height: 180px;
+            p {
+                font-size: 14px;
+                text-align: justify;
+            }
+        }
+        .card-footer {
+            .btn {
+                background: #0A165E;
+                padding: 0.65rem 2.2rem;
+            }
+        }
+    }
+}
+
+.notice {
+    .card {
+        .card-body {
+            min-height: 340px;
+            max-height: 340px;
+            overflow-x: hidden;
+            overflow-y: auto;
+            li {
+                border-bottom: 1px solid #ccc;
+                padding-bottom: 10px;
+                margin-bottom: 10px;
+                .notice_icon {
+                    img {
+                        width: 40px;
+                        height: 40px;
+                        object-fit: contain;
+                    }
+                }
+                p {
+                    font-size: 14px;
+                    text-align: justify;
+                }
+                strong {
+                    font-size: 12px;
+                }
+            }
+        }
+        .card-footer {
+            .btn {
+                background: #0A165E;
+                padding: 0.65rem 2.2rem;
+            }
+        }
+    }
+}

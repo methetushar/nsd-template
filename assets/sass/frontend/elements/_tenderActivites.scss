@@ -1,0 +1,63 @@
+// Tender Activites
+
+.tender {
+    .card {
+        .card-body {
+            &.min-height {
+                min-height: 365px;
+            }
+            tr, th {
+                vertical-align: middle;
+                white-space: nowrap;
+            }
+            img {
+                width: 30px;
+            }
+            .btn {
+                font-size: 13px;
+                background: #6C990B;
+                color: #fff;
+                border-radius: 10px;
+            }
+        }
+        .card-footer {
+            .btn {
+                background: #0A165E;
+                padding: 0.65rem 2.2rem;
+            }
+        }
+    }
+}
+.activites {
+    .card {
+        .card-header {
+            img {
+                height: 70px;
+                object-fit: cover;
+            }
+        }
+        .card-body {
+            &.min-height {
+                min-height: 372px;
+            }
+            p {
+                font-size: 14px;
+                white-space: pre-line;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                max-width: 100%;
+                padding-right: 1rem;
+                max-height: 40px;
+                a {
+                    color: #222;
+                }
+            }
+        }
+        .card-footer {
+            .btn {
+                background: #0A165E;
+                padding: 0.65rem 2.2rem;
+            }
+        }
+    }
+}

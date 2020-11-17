@@ -1,0 +1,47 @@
+//footer 
+
+.footer {
+    .top-footer {
+        background: #232F3F;
+        h4 {
+            font-size: 20px;
+            margin-bottom: 15px;
+            color: #fff;
+        }
+        p {
+            color: #fff;
+        }
+        .nav {
+            .nav-item {
+                .nav-link {
+                    font-size: 14px;
+                    color: #fff;
+                    padding: 0 0.5rem;
+                }
+            }
+        }
+        .payment_card {
+            li {
+                margin: 5px;
+                img {
+                    width: 35px;
+                }
+            }
+        }
+    }
+    .bottom-footer {
+        background: #4B7DB0;
+        padding: 0.5rem;
+        p {
+            font-size: 16px;
+            color: #fff;
+        }
+        .nogor-logo {
+            img {
+                width: 100px;
+                background: #fff;
+                margin: 0 20px;
+            }
+        }
+    }
+}

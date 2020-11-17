@@ -1,0 +1,88 @@
+// Quicklink 
+
+.quicklink {
+    .card {
+        .card-header {
+            h4 {
+                position: relative;
+                font-size: 18px;
+                font-weight: 700;
+                &::before {
+                    content: "";
+                    position: absolute;
+                    bottom: -10px;
+                    width: 100px;
+                    height: 2px;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                }
+                &.title-success {
+                    &::before {
+                        background: #38c172;
+                    }
+                }
+                &.title-primary {
+                    &::before {
+                        background: #E3342F;
+                    }
+                }
+                &.title-danger {
+                    &::before {
+                        background: #6DC8BE;
+                    }
+                }
+                &.title-dark {
+                    &::before {
+                        background: #16487A;
+                    }
+                }
+            }
+        }
+        .card-body {
+            i {
+                font-size: 54px;
+            }
+            h3 {
+                width: 80px;
+                height: 80px;
+                color: #fff;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 50%;
+            }
+            &.text-success {
+                i {
+                    color: #6C990B;
+                }
+                h3 {
+                    background: #6C990B;
+                }
+            }
+            &.text-primary {
+                i {
+                    color: #638CC2;
+                }
+                h3 {
+                    background: #638CC2;
+                }
+            }
+            &.text-danger {
+                i {
+                    color: #A83F05;
+                }
+                h3 {
+                    background: #A83F05;
+                }
+            }
+            &.text-dark {
+                i {
+                    color: #2C2626;
+                }
+                h3 {
+                    background: #2C2626;
+                }
+            }
+        }
+    }
+}
